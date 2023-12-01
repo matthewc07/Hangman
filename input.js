@@ -2,8 +2,8 @@ let btn = document.querySelector("#myButton");
 let input = document.querySelector("#input1");
 let pick = document.querySelector("#incorrectGuesses");
 let newgame = document.getElementById("myButton2");
-let audio_wrong = new Audio("./MEDIA/wrong.mp3");
-let aduio_correct = new Audio("./MEDIA/correct.mp3");
+let audio_wrong = new Audio("wrong.mp3");
+let aduio_correct = new Audio(".correct.mp3");
 
 var image = document.getElementById("picture");
 
@@ -30,13 +30,13 @@ let random = Math.floor(Math.random() * 3);
 
 
 var hangmanImages = [
-    "./MEDIA/background.png",
-    "./MEDIA/miss1.png",
-    "./MEDIA/miss2.png",
-    "./MEDIA/miss3.png",
-    "./MEDIA/miss4.png",
-    "./MEDIA/miss5.png",
-    "./MEDIA/final.png",
+    "/background.png",
+    "miss1.png",
+    "miss2.png",
+    "miss3.png",
+    "miss4.png",
+    "miss5.png",
+    "final.png",
   ];
 
   var currentHangmanImageIndex = 0;
