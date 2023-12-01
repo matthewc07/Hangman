@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Hangman</title>
+        <link rel="stylesheet" href="input.css">
+    </head>
+
+    <body>
+        <div id="topt">
+            <label for="input1">Letter:</label>
+        </div>
+        <br>
+        <input type="text" id="input1"
+                minlength="1" maxlength="1" value=""/>
+        <br>
+            <button id="myButton">Submit</button>
+            <div id="picture">
+                <img src="./MEDIA/background.png">
+            </div>
+            <button type="submit" onClick="refreshPage()" id="myButton2">New Game</button>
+
+        <div class="boxen">
+            <div id="box1">
+                <p> </p>
+            </div>
+
+            <div id="box2">
+                <p> </p>
+            </div>
+
+            <div id="box3">
+                <p> </p>
+            </div>
+
+            <div id="box4">
+                <p> </p>
+            </div>
+
+            <div id="box5">
+                <p> </p>
+            </div>
+
+            <div id="box6">
+                <p> </p>
+            </div>
+
+            <div id="box7">
+                <p> </p>
+            </div>
+
+            <div id="box8">
+                <p> </p>
+            </div>
+        </div>
+
+        <p id="incorrectGuesses"> </p>
+        <p id="end"></p>
+    </body>
+    <script src="input.js"></script>
+
+</html>

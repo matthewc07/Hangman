@@ -1,0 +1,159 @@
+*{
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: red;
+}
+
+input {
+    width: 60px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#topt {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+#myButton {
+    display: inline-block;
+    padding: 8px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+#picture {
+    display: inline-block;
+}
+
+#picture img {
+    padding-left: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#myButton2 {
+    display: inline-block;
+    padding: 8px;
+    margin-left: 50px;
+}
+
+
+.boxen {
+    display: block;
+    padding-top: 50px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+#box1 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    width: 70px;
+    height: 80px;
+}
+
+#box2 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box3 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box4 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box5 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box6 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box7 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+#box8 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+
+p {
+    font-size: xx-large;
+}
+
+#incorrectGuesses {
+    font-size: x-large;
+    margin-left: 450px;
+}
+
+#end {
+    font-size: x-large;
+    text-align: center;
+}
