@@ -30,7 +30,7 @@ let random = Math.floor(Math.random() * 3);
 
 
 var hangmanImages = [
-    "/background.png",
+    "./background.png",
     "./miss1.png",
     "./miss2.png",
     "./miss3.png",
